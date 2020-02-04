@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body{
+	padding: 0;
+	background-color: #eee;
+	margin: 0;
+	font-family: "Nunito";
+}
+
+.box{
+	margin: auto;
+	width: 300px;
+	text-align: center;
+	margin-top: 100px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 1px 2px 5px rgba(0,0,0,.2);
+}
+
+table{
+	width: 100%;
+	text-align: left;
+}
+
+tr{
+	width: 100%;
+}
+
+td input[type="text"],input[type="password"]{
+	width: 90%;
+	font-family: "Nunito";
+	border: 1px solid #aaa;
+	padding: 5px 5%;
+}
+
+td input[type="submit"]{
+	outline: none;
+	padding: 5px 5%;
+	width: 90%;
+	background-color: #111;
+	border: none;
+	color: #fff;
+	font-family: "Nunito";
+}
+
+input:focus{
+	outline: none;
+}
+
+a{
+	color: #111;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.profile{
+	padding: 20px 5%;
+	border-bottom: 1px solid #111;
+}
+
+.logout{
+	float: right;
+}
