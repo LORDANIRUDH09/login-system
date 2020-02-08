@@ -19,9 +19,10 @@ $stmt->bind_param("ss", $username, $password);
 $stmt->execute();
 $stmt->bind_result($username, $password);
 $stmt->store_result();
-if($stmt->fetch()) 
+if($stmt->fetch()){
 $_SESSION['login_user'] = $username;
 header("location: profile.php"); 
+}
 }
 }
 ?>

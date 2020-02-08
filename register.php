@@ -49,6 +49,7 @@ if (!empty($username) || !empty($password)) {
       padding: 100px;
       font-family: "Nunito";
       font-size: 16px;
+      background-color: #eee;
     }
     a{
       color: #111;
