@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Login Form in PHP with Session</title>
+<title>Register Form</title>
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
