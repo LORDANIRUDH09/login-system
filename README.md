@@ -1,4 +1,6 @@
-Download Xampp | 
-Download this folder | 
-Create a MySQL database and create a Database = users , Table = account |
-Now create rows => id - int = 11 > A.I > Primary, username - varchar = 255 , password - varchar = 255 |
+TRY OUT THIS LOGIN SYSTEM ONLINE -
+
+login-system-09.epizy.com
+
+WHEN YOU DOWNLOAD THIS FILES YOU NEED XAMPP TO RUN MYSQL AND PHPMYADMIN
+IT IS IMPORTANT TO CREATE MYSQL DATABASE NAMED users. 
